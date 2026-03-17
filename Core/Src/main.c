@@ -114,7 +114,7 @@ int main(void)
   MX_ADC1_Init();
   MX_USART1_UART_Init();
   MX_CRC_Init();
-//  MX_X_CUBE_AI_Init();
+  MX_X_CUBE_AI_Init();
   /* USER CODE BEGIN 2 */
 HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_RESET);
   /* USER CODE END 2 */
